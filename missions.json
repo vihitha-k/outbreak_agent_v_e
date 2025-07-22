@@ -1,0 +1,17 @@
+{
+    "id": "flu-town",
+    "title": "Mystery Flu in Metroville",
+    "intro": "People in Metroville are getting sick fast...",
+    "data_sources": ["symptoms", "geography", "lab tests", "mutation data"],
+    "choices": [
+      {
+        "question": "Where should your AI send test kits?",
+        "options": ["Hospitals", "Schools", "Rural Clinics"]
+      }
+    ],
+    "outcomes": {
+      "good": "Outbreak controlled in 3 days!",
+      "mid": "Took longer, but fewer deaths.",
+      "bad": "Virus spread to nearby cities."
+    }
+  }
